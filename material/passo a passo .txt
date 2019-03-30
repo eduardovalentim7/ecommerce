@@ -60,9 +60,29 @@ reinicia o apache
 
 **no arquivo Index 
 
-*cria um novo 
+*cria um novo arquivo no \vendor\hcodebr\php-classes\src
+    nome:Page.php(Gerencia as telas)
 
-Site : adminLTE
+
+
+
+*cria uma pasta res(recursos)
+  dentro dela outra "site"
+
+*na pasta views - mapeia os css em cada arquivo (header, footer e index)
+altera src e href
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+template do admin  - pesquisa de template Site : adminLTE
+PageAdmin
+
+* ao criar uma nova pagina, definir a rota no index.php
+
+
+
+
+
+
 
 
 
