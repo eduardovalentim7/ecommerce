@@ -4,11 +4,26 @@ https://git-scm.com/
 
 
 *** GitHub
-git init (inicia repositorio de versionamento)
+**git init (inicia repositorio de versionamento)
 vai no github, edit profile - email  - copia o email
 vai no gitbash : 
-git config --global user.name "Eduardo Valentim"
-git config --global user.email "Eduardo Valentim"
+**git config --global user.name "Eduardo Valentim"
+**git config --global user.email "eduardovalentim79@gmail.com"
+
+salvar:
+git status
+git add .(adiciona)
+git commit -m "Inicio Configuracao do projeto"
+git push
+
+
+git log
+
+git remote add origin https://github.com/eduardovalentim7/ecommerce.git 
+(COmando acima vincula o projeto ao git)
+
+git push -u origin master
+
 
 
 
@@ -39,21 +54,8 @@ altera: DocumentRoot "C:/ecommerce"
 
 reinicia o apache
 
-3º - cria repositório no GIT
-botao direiro na pasta do projeto 
--git init 
 
-vai na conta do github  - cria o novo repositorio
-
-
-vai no git bash e digita: 
-git remote add origin https://github.com/eduardovalentim7/ecommerce.git
-
-*primeiro commit
-git add --all
-git commit -m "Inicio do Projeto"
-
-3 - ao colocar um anova(arquivo sql) pasta com arquivos no vendor deve se informar no arquivo "composer"
+3 - ao colocar um a nova(arquivo sql) pasta com arquivos no vendor deve se informar no arquivo "composer"
 *vai no git bash digita: composer dump-autoload
 
 **no arquivo Index 
